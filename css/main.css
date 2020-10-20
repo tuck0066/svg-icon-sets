@@ -14,6 +14,8 @@ html {
 
 body {
   margin: 0;
+  background-image: linear-gradient(#ff9500, #ff5e3a);
+  color: #fff;
 }
 
 header {
@@ -62,9 +64,9 @@ article p {
 }
 
 article a {
-  color: #3783a3;
+  color: #fff;
   text-decoration: none;
-  border: .2rem solid rgba(55, 131, 163, .5);
+  border: .2rem solid rgba(255, 255, 255, .7);
   border-radius: .3rem;
   margin: auto 0 0;
   padding: .5em 1em .6em;
@@ -87,12 +89,12 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #76a500;
+  color: #ff5e3a;
 }
 
 a:hover,
 a:focus {
-  color: #acc300;
+  color: #ff9500;
 }
 
 .icon {
@@ -107,7 +109,7 @@ a:focus {
   position: absolute;
   top: 0;
   width: 100%;
-  fill: currentColor;
+  fill: #fff;
 }
 
 @media only screen and (min-width: 38em) {
